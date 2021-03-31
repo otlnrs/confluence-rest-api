@@ -2,7 +2,12 @@
     "name": "lesstif/confluence-rest-api",
     "description": "Confluence REST API Client for PHP Users.",
     "type": "library",
-    "keywords": ["confluence", "rest", "confluence-php", "confluence-rest"],
+    "keywords": [
+        "confluence",
+        "rest",
+        "confluence-php",
+        "confluence-rest"
+    ],
     "require": {
         "php": "^7.4",
         "ext-curl": "*",
@@ -11,7 +16,7 @@
         "monolog/monolog": "~1.12|^2.0",
         "vlucas/phpdotenv": "^4.0|^5.0",
         "guzzlehttp/guzzle": "^7.2",
-        "league/flysystem": "^2.0",
+        "league/flysystem": "^1.0|^2.0",
         "ext-iconv": "*"
     },
     "require-dev": {
@@ -30,8 +35,8 @@
         }
     ],
     "autoload": {
-        "psr-4" : {
-            "Lesstif\\Confluence\\" : "src"
+        "psr-4": {
+            "Lesstif\\Confluence\\": "src"
         }
     }
 }
